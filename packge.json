@@ -1,0 +1,17 @@
+{
+  "name": "qyrex-deobfuscator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Qyrex Lua/Luau deobfuscation service with a fused multi-engine pipeline.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
